@@ -1,53 +1,25 @@
+//Multiplay with using arrow Function;
+const multiplay = (a, b) => {
+  return console.log(a * b);
+};
+multiplay(5, 6);
+
+//Playing With Objects In JS
 const person = {
-    name:'Priyansh Rai',
-    age: 24,
-    greet(){
-        console.log('Hi i am ' + this.name);
-    }
-}
+  name: "Priyansh Rai",
+  age: 24,
+};
+//Normally calling Object Data;
 
-// const printName = (personData)=> {
-//     console.log(personData.name);
-// }
-// printName(person);
-
-const printName = ({name})=> {
-    console.log(name);
-}
+const printName = (personData) => {
+  console.log(personData.name);
+};
 printName(person);
-//1
-// const obj1 = {
-//     'key1': 1,
-//      "key2": 2,
-//       "key3": 1000
-//     }
 
-// const { key1, key3} = obj1
+//Data Call Using Destructuring;
 
+const printName1 = ({ name }) => {
+  console.log(name);
+};
+printName1(person);
 
-
-// console.log(key1, key3)
-
-//2
-const arr1 = ['value1', 'value2']
-
-const [ val1, val2 ] = arr1
-
-
-
-console.log(val1)
-
-console.log(val2)
-
-//3
-const obj1 = {'key1': 1, "key2": 2, "key3": 1000}
-
-let { key1, key3} = obj1
-
-
-
-obj1.key1 = 20;
-
-key3 = 123
-
-console.log(obj1.key1, obj1.key3)
