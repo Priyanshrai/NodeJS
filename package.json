@@ -1,0 +1,24 @@
+{
+  "name": "first-program-nodejs",
+  "version": "1.0.0",
+  "description": "complete nodejsguide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyanshrai/NodeJS.git"
+  },
+  "author": "Priyansh Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyanshrai/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Priyanshrai/NodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
